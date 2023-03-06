@@ -3,7 +3,7 @@ import csv
 
 
 def delete():
-    del_str = input("Введите id заметки, которую хотите удалить: ")
+    del_str = input("Введите id заметки, которую хотите удалить : ")
     with open('file.csv', 'r', encoding='UTF-8', newline='') as inp, open('file_out.csv', 'w', encoding='UTF-8',
                                                                           newline='') as out:
         writer = csv.writer(out)
